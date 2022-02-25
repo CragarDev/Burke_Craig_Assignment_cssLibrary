@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: normal;
+  /* background-color: rgb(40, 40, 40); */
+  /* color: white; */
+}
+
+body {
+  background-color: rgb(55, 55, 55);
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  background-color: darkgreen;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Utility stylings */
+.m1020 {
+  margin: 10px 20px;
+}
+
+/* Buttons from the Button Up assignment */
+
+.buttons {
+  /* margin: 40px; */
+  border: 2px solid lightgreen;
+}
+
+.search {
+  color: rgb(0, 150, 150);
+  font-weight: bold;
+  border: 2px solid rgb(0, 150, 150);
+  border-radius: 25px;
+  width: 130px;
+  height: 25px;
+}
+
+.plus {
+  background-color: rgb(0, 205, 169);
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  /* border-style: none; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  padding-bottom: 3px;
+}
+
+.create-account {
+  background-color: rgb(19, 107, 223);
+  color: white;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+}
