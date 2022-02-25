@@ -2,4 +2,8 @@
 
 Building a CSS Library
 
-![cssLibrary](./images/Burke_Craig_CSSLibrary1.png)
+- Nav Bar
+- Buttons
+- Flexible columns
+
+![cssLibrary](./images/Burke_Craig_CSSLibrary2.png)
