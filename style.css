@@ -32,12 +32,11 @@ h1 {
   margin: 10px 20px;
 }
 
-/* Buttons from the Button Up assignment */
-
-.buttons {
-  /* margin: 40px; */
+.border {
   border: 2px solid lightgreen;
 }
+
+/* Buttons from the Button Up assignment */
 
 .search {
   color: rgb(0, 150, 150);
@@ -69,4 +68,30 @@ h1 {
   width: 150px;
   height: 30px;
   margin: 20px;
+}
+
+/* flexible columns */
+.row {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.col,
+.col-2,
+.col-3 {
+  flex: 1;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(84, 153, 161);
+  padding: 20px;
+  margin: 10px 10px;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
 }
